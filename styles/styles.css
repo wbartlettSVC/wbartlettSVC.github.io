@@ -1,0 +1,309 @@
+/* Style sheet created by: William Bartlett, 11/1/18 */
+
+body {
+	background-color: #001F04;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Mobile Layouts */
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	text-decoration: none;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a h1 {
+	margin-top: -.2em;
+	font-size: 3.5em;
+	color: #6FB177;
+}
+
+.big {
+	font-size: 1.75em;
+}
+
+nav {
+	font-family: "Courier New", Courier, serif;
+	font-weight: bold;
+	text-align: center;
+	color: #3F8247;
+	margin-top: -2em;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: -1.5em;
+	margin-bottom: .5em;
+}
+
+nav li {
+	font-size: 1.75em;
+	background-color: #46CA56;
+	border-radius: 1.5em;
+	list-style-type: none;
+	margin: .3em;
+	padding: .4em;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #3F8247;
+}
+
+main img {
+	opacity: .85;
+}
+	
+main img:hover {
+	opacity: 1;
+}
+
+.mobile {
+	display: inline;
+}
+.desktop {
+	display: none;
+}
+.tablet {
+	display: none;
+}
+.desktopOnly {
+	display: none;
+}
+
+
+main h2 a {
+	color: #2222AA;
+}
+
+main {
+	color: #032207;
+	display: block;
+	text-align: center;
+	margin-top: .5em;
+	padding: 1em;
+	border-radius: 1.5em 3em 3em 1em;
+	background-color: #41894A;
+	border-left: solid .3em #114A18;
+	border-right: solid .3em #114A18;
+}
+
+main a {
+	text-decoration: none;
+	color: #B3E5B9;
+}
+
+footer {
+	margin-top: 2em;
+	font-size: .7em;
+	text-align: center;
+	color: #3F8247;
+}
+
+/* Tablet Viewports */
+@media only screen and (min-width: 660px) {
+	nav li {
+		font-size: 1.75em;
+		display: inline;
+		float: left;
+		margin-left: 0%;
+		margin-right: 0%;
+		width: 25%;
+		padding-left: 0em;
+		padding-right: 0em;
+		border-radius: 0;
+		white-space: nowrap;
+		background-color: transparent;
+		color: #218E10;
+	}
+	
+	main {
+		clear: left;
+		border-radius: 0;
+		margin-top: 4em;
+	overflow-y: hidden;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	.rightPic {
+		width: 50%;
+		max-width: 70%;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	.desktop {
+		display: inline;
+	}
+	
+	.tablet {
+		display: block;
+		margin-top: -3em;
+		margin-bottom: -3em;
+	}
+	.desktopOnly {
+		display: none;
+	}
+
+	.charStyle {
+		margin-left: 40%;
+		margin-top: -35em;
+		width: 55%;
+	}
+
+	.characterPic {
+		max-width: 40%;
+		margin-left: -60%;
+		padding-bottom: 15em;
+		padding-top: 10em;
+	}
+}
+
+
+/* Desktop Viewports */
+@media only screen and (min-width: 830px) {
+	
+	#container {
+		background-image: linear-gradient(#0A4411, #001F04);
+		padding: .2em;
+	}
+	
+	header {
+		text-align: left;
+		width: 50%;
+		max-width: 37em;
+	}
+	
+	header a h1 {
+		margin-top: -2.3em;
+		padding-left: 2em;
+	}
+	
+	nav { 
+	width: 55%;
+	float: left;
+	padding-left: 45.5%;
+	margin-top: -6em;
+	}
+	
+	nav li {
+		width: 25%;
+	}
+	nav li a {
+		color: #010C02;
+	}
+	nav li a:hover {
+		color: #93AC96;
+		font-style: italic;
+	}
+	
+	main {
+		background-color: #0F6219;
+		overflow-y: hidden;
+		border-radius: 1em 2em 1em 2em;
+		border-left: 0;
+		border-right: 0;
+	}
+	main p {
+		font-size: 1.1em;
+		color: #000000;
+	}
+	
+	.pic { 
+		max-width: 70%;
+	}
+	
+	main h2 {
+		color: #C2E1C6;
+	}
+	
+	.qAndA p {
+		background-color: #55AA55;
+		padding-left: 3em;
+		padding-right: 3em;
+		border-radius: 0em 4em 4em 4em;
+		z-index: 3;
+	}
+	.qAndA {
+		background-color: #874747;
+		border-radius: 1em 4em 4em 4.25em;
+	}
+	.qAndA h2 {
+	}
+	
+	.rightPic {
+		display: inline;
+		float: right;
+		width: 30%;
+		max-width: 30em;
+		margin-top: -10em;
+		border-radius: 1em;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	.desktop {
+		display: inline;
+	}
+	
+	.tablet {
+		display: block;
+		margin-top: -3em;
+		margin-bottom: -3em;
+	}
+	.desktopOnly {
+		display: inline;
+	}
+
+
+	.charStyle {
+		margin-left: 40%;
+		margin-top: -35em;
+		width: 55%;
+	}
+
+	.characterPic {
+		max-width: 40%;
+		margin-left: -60%;
+		padding-bottom: 15em;
+		padding-top: 10em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
