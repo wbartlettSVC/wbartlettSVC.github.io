@@ -2,6 +2,7 @@
 
 body {
 	background-color: #001F04;
+	overflow-x: hidden;
 }
 
 img {
