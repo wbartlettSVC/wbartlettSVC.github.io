@@ -84,6 +84,9 @@ main img:hover {
 .desktopOnly {
 	display: none;
 }
+.center {
+	text-align: center;
+}
 
 
 main h2 a {
@@ -212,7 +215,7 @@ footer {
 		color: #010C02;
 	}
 	nav li a:hover {
-		color: #93AC96;
+		color: #6FB177;
 		font-style: italic;
 	}
 	
@@ -226,6 +229,7 @@ footer {
 	main p {
 		font-size: 1.1em;
 		color: #000000;
+		text-align: left;
 	}
 	
 	.pic { 
@@ -242,6 +246,7 @@ footer {
 		padding-right: 3em;
 		border-radius: 0em 4em 4em 4em;
 		z-index: 3;
+		text-align: center;
 	}
 	.qAndA {
 		background-color: #874747;
