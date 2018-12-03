@@ -62,7 +62,7 @@ nav li {
 
 nav li a {
 	text-decoration: none;
-	color: #3F8247;
+	color: #285C28;
 }
 
 main img {
@@ -88,6 +88,18 @@ main img:hover {
 .center {
 	text-align: center;
 }
+	
+.qAndA p {
+	background-color: #55AA55;
+	padding-left: 3em;
+	padding-right: 3em;
+	z-index: 3;
+	text-align: center;
+	color: #000000;
+}
+.qAndA {
+	background-color: #874747;
+}
 
 
 main h2 a {
@@ -95,7 +107,6 @@ main h2 a {
 }
 
 main {
-	color: #032207;
 	display: block;
 	text-align: center;
 	margin-top: .5em;
@@ -133,6 +144,9 @@ footer {
 		white-space: nowrap;
 		background-color: transparent;
 		color: #218E10;
+	}
+	nav li a {
+		color: #3F8247;
 	}
 	
 	main {
@@ -229,7 +243,7 @@ footer {
 	}
 	main p {
 		font-size: 1.1em;
-		color: #000000;
+		color: #C5D1C5;
 		text-align: left;
 	}
 	
@@ -239,21 +253,6 @@ footer {
 	
 	main h2 {
 		color: #C2E1C6;
-	}
-	
-	.qAndA p {
-		background-color: #55AA55;
-		padding-left: 3em;
-		padding-right: 3em;
-		border-radius: 0em 4em 4em 4em;
-		z-index: 3;
-		text-align: center;
-	}
-	.qAndA {
-		background-color: #874747;
-		border-radius: 1em 4em 4em 4.25em;
-	}
-	.qAndA h2 {
 	}
 	
 	.rightPic {
@@ -295,6 +294,16 @@ footer {
 		padding-bottom: 15em;
 		padding-top: 10em;
 	}
+	
+	
+	
+	.qAndA p {
+		border-radius: 0em 4em 4em 4em;
+	}
+	.qAndA {
+		border-radius: 1em 4em 4em 4.25em;
+	}
+	
 }
 
 
