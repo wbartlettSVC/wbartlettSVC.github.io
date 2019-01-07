@@ -11,5 +11,5 @@ function main() {
 	else {
 		message = "Good Evening.";
 	}
-	document.getElementById("message").innerHTML = message;
+document.getElementById("message").innerHTML = "My First JavaScript";
 }
