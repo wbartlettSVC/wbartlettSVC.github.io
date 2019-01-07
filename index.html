@@ -12,6 +12,23 @@ http://en.cataclysmdda.com/
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="styles/styles.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+			var timeHours = new Date().getHours();
+			var timeHours = new Date().getHours();
+			var message;
+
+			if(timeHours < 11) {
+				message = "Good Morning.";
+			}
+			else if(timeHours >= 11 || timeHours <= 17) {
+				message = "Good Afternoon.";
+			}
+			else {
+				message = "Good Evening.";
+			}
+			document.getElementById("message").innerHTML = message;
+		</script>
+		<script src="js/main.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -29,6 +46,10 @@ http://en.cataclysmdda.com/
 			</nav>
 			
 			<main>
+				<h2>
+					<p id="message"></p>
+				</h2>
+				
 				<h2 class="big">Cataclysm: DDA....</h2>
 				<p>First off, what is it? Cataclysm: Dark Days Ahead is a turn-based, open-source roguelike game set in an apocalyptic world. You have to get your wits quickly, because, depending on the situation, or "Scenario" you pick to start off in, your life may very well be on the line. Food, thirst, bloodloss, infection...many things are a possible problem right off the bat.</p>
 				

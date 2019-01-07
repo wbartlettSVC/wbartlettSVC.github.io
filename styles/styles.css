@@ -73,6 +73,12 @@ main img:hover {
 	opacity: 1;
 }
 
+#message {
+	font-size: 2em;
+	color: #73f77c;
+}
+
+
 .mobile {
 	display: inline;
 }
@@ -88,7 +94,8 @@ main img:hover {
 .center {
 	text-align: center;
 }
-	
+
+
 .qAndA p {
 	background-color: #55AA55;
 	padding-left: 3em;
