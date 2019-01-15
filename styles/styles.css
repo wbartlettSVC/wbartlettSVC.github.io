@@ -318,7 +318,12 @@ footer {
 }
 
 
-
+	
+@media only screen and (min-width: 1000px) {
+	#expire {
+		margin-left: 22.5%;
+	}
+}
 
 
 
