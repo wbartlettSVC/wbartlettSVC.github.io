@@ -77,6 +77,10 @@ main img:hover {
 	font-size: 2em;
 	color: #73f77c;
 }
+	
+#expire {
+	color: #55AA55;
+}
 
 
 .mobile {
