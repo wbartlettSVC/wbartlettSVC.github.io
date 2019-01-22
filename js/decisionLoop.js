@@ -1,8 +1,8 @@
-var table = 7;
+var table = Math.floor((Math.random() * 40) + 1);
 var arr = ['addition','subtraction','multiplication','division']
 var operator = arr[Math.floor(Math.random() * 4)];
 var num = 1;
-var numF = Math.floor(Math.random() * 101);
+var numF = Math.floor((Math.random() * 21) + 1);
 var msg = '';
 
 function calc() {
