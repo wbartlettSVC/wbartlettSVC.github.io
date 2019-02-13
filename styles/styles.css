@@ -9,6 +9,19 @@ img {
 	max-width: 100%;
 }
 
+#anim, #animInside {
+	background-color: #2B9F55;
+	border: solid .8px #c3c3c3;
+	width: 45vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#animInside {
+	display: none;
+}
+
 /* Mobile Layouts */
 #container {
 	background-image: linear-gradient(#0A4411, #001F04);
@@ -79,7 +92,7 @@ main img:hover {
 }
 	
 #expire {
-	color: #55AA55;
+	color: #55CA55;
 }
 
 
@@ -317,13 +330,6 @@ footer {
 	
 }
 
-
-	
-@media only screen and (min-width: 1000px) {
-	#expire {
-		margin-left: 22.5%;
-	}
-}
 
 
 
