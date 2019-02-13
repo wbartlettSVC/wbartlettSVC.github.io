@@ -17,7 +17,9 @@ img {
 	margin-right: auto;
 	text-align: center;
 }
-
+#click {
+	padding: 5px;
+}
 #animInside {
 	display: none;
 }
