@@ -9,20 +9,55 @@ img {
 	max-width: 100%;
 }
 
-#anim, #animInside {
+#anim, .animInside {
 	background-color: #2B9F55;
 	border: solid .8px #c3c3c3;
 	width: 45vw;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 10;
+}
+
+.tab-panel {
+	display: none;
+}
+.tab-list {
+	background-color: darkred;
+}
+.tab-list li {
+	text-decoration: none;
+	font-style: none;
+	list-style-type: none;
+}
+.tab-list li a {
+	color: black;
+	font-size: 3.5vh;
+	background-color: lightblue;
+	border: dashed .75px black;
+	text-align:center;
+	float: left;
+	width: 25%;
+	height: 15%;
+	margin-right: 5%;
+	margin-left: 2.5%;
+	margin-bottom: 5.5%;
+}
+.tab-list li.active a {
+	background-color: green;
+}
+.tab-panel.active {
+	display: block;
+	margin-left: .75vw;
 	text-align: center;
 }
+
 #click {
 	padding: 5px;
 }
-#animInside {
+.animInside {
 	display: none;
 	margin-left: -1px;
+	text-align: left;
 }
 
 /* Mobile Layouts */
@@ -67,7 +102,7 @@ nav ul {
 	margin-bottom: .5em;
 }
 
-nav li {
+nav li{
 	font-size: 1.75em;
 	background-color: #46CA56;
 	border-radius: 1.5em;

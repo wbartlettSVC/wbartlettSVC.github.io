@@ -5,4 +5,6 @@ $(document).ready(function() {
 	$("header > a > img").draggable();
 	$("footer").draggable();
 	$("#message").draggable();
+	
+	
 });

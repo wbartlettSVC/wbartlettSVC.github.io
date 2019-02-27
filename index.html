@@ -48,19 +48,27 @@ http://jqueryui.com/
 				
 				<section id="anim">
 					<section id="click">Click Here for Panel</section>
-					<section id="animInside">
-						<section>You can drag this box(inside only)</section>
-						<h2 id="expire">
-							This text is for testing purposes - If it is showing up, something is going wrong
-						</h2>
-						<h2 id="calc">
-							This text is for testing purposes - If it is showing up, something is going wrong
-						</h2>
-						<h2 id="colorEvent">
-							Background Top Color: <input type="color" class="color" value="#0A4411"></br>
-							Background Bottom Color: <input type="color" class="color" value="#001F04"></br>
-							<button onClick="myFunc()" >Press To Change</button>
-						</h2>
+					<section class="animInside">
+						<ul class="tab-list">
+							<li class="active"><a class="tab-control" href="#tab-1">Tab 1</a></li>
+							<li><a class="tab-control" href="#tab-2">Tab 2</a></li>
+							<li><a class="tab-control" href="#tab-3">Tab 3</a></li>
+						</ul>
+						<div class="tab-panel active" id="tab-1">
+							<h2 id="expire">
+								This text is for testing purposes - If it is showing up, something is going wrong
+							</h2>
+							<h2 id="calc">
+								This text is for testing purposes - If it is showing up, something is going wrong
+							</h2>
+							<h2 id="colorEvent">
+								Background Top Color: <input type="color" class="color" value="#0A4411"><br/>
+								Background Bottom Color: <input type="color" class="color" value="#001F04"><br/>
+								<button onClick="myFunc()">Press To Change</button>
+							</h2>
+						</div>
+						<div class="tab-panel" id="tab-2"><h2>Insert text here</h2></div>
+						<div class="tab-panel" id="tab-3"><h2> Insert even more text here</h2></div>
 					</section>
 				</section>
 			</main>
@@ -70,10 +78,12 @@ http://jqueryui.com/
 				wbartlett@website.com
 			</footer>
 		</div>
+		<script src="js/stickyNotes.js"></script>
 		<script src="js/expire.js"></script>
 		<script src="js/JQueryUIStuff.js"></script>
 		<script src="js/decisionLoop.js"></script>
 		<script src="js/colorEvent.js"></script>
 		<script src="js/jQuery.js"></script>
+		<script src="js/contentPanels.js"></script>
 	</body>
 </html>

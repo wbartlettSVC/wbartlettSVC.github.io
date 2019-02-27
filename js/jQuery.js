@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$("#click").click(function() {
-		$("#animInside").slideToggle("slow");
+		$(".animInside").slideToggle("slow");
 	});
 	
 	$("body").hide();
-	$("body").fadeIn(1000);
+	$("body").fadeIn(2500);
 });
