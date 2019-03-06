@@ -18,9 +18,9 @@ $("body").keyup(function() {
 });
 
 var filter = function() {
-	$("#filter > li").filter(":even").css("background-color", "grey");
-	$("#filter > li").filter(":odd").css("background-color", "green");
 	$filter = $("#filterText").val();
 	$("#filter > li").css("display", "block");
 	$("#filter > li:not(:contains("+$filter+"))").css("display", "none");
+	$("#filter > li").filter(":even").css("background-color", "grey");
+	$("#filter > li").filter(":odd").css("background-color", "green");
 };
