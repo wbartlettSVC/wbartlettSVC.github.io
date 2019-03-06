@@ -16,6 +16,12 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 10;
+	overflow: hidden;
+}
+li {
+	text-decoration: none;
+	font-style: none;
+	list-style-type: none;
 }
 
 .tab-panel {
@@ -49,6 +55,14 @@ img {
 	display: block;
 	margin-left: .75vw;
 	text-align: center;
+}
+
+#filter {
+	float: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25vw;
 }
 
 #click {

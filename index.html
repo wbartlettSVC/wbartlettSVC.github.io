@@ -12,6 +12,7 @@ http://jqueryui.com/
 		<title>Cataclysm: Dark Days Ahead</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="styles/styles.css"/>
+		<link rel="stylesheet" href="styles/jquery.nouislider.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/jquery-ui.js"></script>
@@ -67,7 +68,20 @@ http://jqueryui.com/
 								<button onClick="myFunc()">Press To Change</button>
 							</h2>
 						</div>
-						<div class="tab-panel" id="tab-2"><h2>Insert text here</h2></div>
+						<div class="tab-panel" id="tab-2">
+							<h2>Filtering</h2>
+							<ul id="filter">
+								<input type="text" id="filterText" placeholder="Type here to filter..."></input>
+								<h3>Enemy Types:</h3>
+								<li>Zombies</li>
+								<li>Robots</li>
+								<li>Mutants</li>
+								<li>Triffids</li>
+								<li>Fungals</li>
+								<li>Nethereum</li>
+								<li>Humans</li>
+							</ul>
+						</div>
 						<div class="tab-panel" id="tab-3"><h2> Insert even more text here</h2></div>
 					</section>
 				</section>
@@ -85,5 +99,6 @@ http://jqueryui.com/
 		<script src="js/colorEvent.js"></script>
 		<script src="js/jQuery.js"></script>
 		<script src="js/contentPanels.js"></script>
+		<script src="js/filter.js"></script>
 	</body>
 </html>
