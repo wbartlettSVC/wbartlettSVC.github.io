@@ -37,7 +37,7 @@ li {
 }
 .tab-list li a {
 	color: black;
-	font-size: 3.5vh;
+	font-size: 3vw;
 	background-color: lightblue;
 	border: dashed .75px black;
 	text-align:center;

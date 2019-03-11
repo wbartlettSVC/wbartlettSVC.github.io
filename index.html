@@ -51,9 +51,9 @@ http://jqueryui.com/
 					<section id="click">Click Here for Panel</section>
 					<section class="animInside">
 						<ul class="tab-list">
-							<li class="active"><a class="tab-control" href="#tab-1">Tab 1</a></li>
-							<li><a class="tab-control" href="#tab-2">Tab 2</a></li>
-							<li><a class="tab-control" href="#tab-3">Tab 3</a></li>
+							<li class="active"><a class="tab-control" href="#tab-1">Main</a></li>
+							<li><a class="tab-control" href="#tab-2">Filter</a></li>
+							<li><a class="tab-control" href="#tab-3">Forms</a></li>
 						</ul>
 						<div class="tab-panel active" id="tab-1">
 							<h2 id="expire">
@@ -69,7 +69,7 @@ http://jqueryui.com/
 							</h2>
 						</div>
 						<div class="tab-panel" id="tab-2">
-							<h2>Filtering</h2>
+							<h2> Filtering </h2>
 							<ul id="filter">
 								<input type="text" id="filterText" placeholder="Type here to filter..."></input>
 								<h3>Enemy Types:</h3>
@@ -82,7 +82,20 @@ http://jqueryui.com/
 								<li>Humans</li>
 							</ul>
 						</div>
-						<div class="tab-panel" id="tab-3"><h2> Insert even more text here</h2></div>
+						<div class="tab-panel" id="tab-3">
+							<form id="login" action="./index.html" method="post">
+								<fieldset>
+									<legend>Log In</legend>
+									<label for="username">Username:</label>
+									<input type="text" id="username" name="username" placeholder="Username"/><br/>
+									<label for="pwd">Password:</label>
+									<input type="password" id="pwd" name="pwd" placeholder="Password"/><br/>
+									<input type="checkbox" id="showPwd"/>
+									<label for="showPwd">Show Password</label><br/>
+									<input type="submit" value="Login"/>
+								</fieldset>
+							</form>
+						</div>
 					</section>
 				</section>
 			</main>
@@ -92,13 +105,16 @@ http://jqueryui.com/
 				wbartlett@website.com
 			</footer>
 		</div>
-		<script src="js/stickyNotes.js"></script>
+		<script src="js/forms.js"></script>
+		<!-- <script src="js/stickyNotes.js"></script> -->
 		<script src="js/expire.js"></script>
+		<script src="js/pwd.js"></script>
 		<script src="js/JQueryUIStuff.js"></script>
 		<script src="js/decisionLoop.js"></script>
 		<script src="js/colorEvent.js"></script>
 		<script src="js/jQuery.js"></script>
 		<script src="js/contentPanels.js"></script>
 		<script src="js/filter.js"></script>
+		<script src="js/utilities.js"></script>
 	</body>
 </html>
