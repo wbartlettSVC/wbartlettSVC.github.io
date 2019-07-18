@@ -150,4 +150,70 @@ anWebgl.gotoScene("scene6");
 });
 }
 
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip7.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene1");
+});
+}
+
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip8.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene2");
+});
+}
+
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip9.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene3");
+});
+}
+
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip10.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene4");
+});
+}
+
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip11.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene5");
+});
+}
+
+{
+var _this = this;
+
+//Clicking on the specified symbol instance executes a function.
+_this.tooltip12.addEventListener(AnEvent.CLICK, function() {
+
+//Go to the specified scene and play
+anWebgl.gotoScene("scene6");
+});
+}
+
 };
